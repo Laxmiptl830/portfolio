@@ -63,7 +63,7 @@ header {
 }
 .hero_text span{
   font-size: 5em;
-  color:rgba(32, 30, 30, 0.925);
+  color:rgba(150, 131, 131, 0.925);
   text-shadow: -5px 5px 2px rgba(184, 135, 11, 0.349);
   text-size-adjust: 100%;
  -webkit-font-smoothing:antialiased;
@@ -100,7 +100,7 @@ header {
 }
 .greetings span{
   font-size: 8em;
-  color:rgba(32, 30, 30, 0.925);
+  color:rgba(150, 131, 131, 0.925);
   text-shadow: -5px 5px 2px rgba(184, 135, 11, 0.349);
   text-size-adjust: 100%;
  -webkit-font-smoothing:antialiased;
@@ -134,7 +134,7 @@ header {
   height: 25%;
   width: 100%;
   
-  text-align: start;
+  text-align: center;
   line-height: 30px;
   color: white;
   border-radius: 5px;
@@ -143,4 +143,198 @@ header {
 H2{
   font-size: 30px;
   text-align: center;
+}
+.projectManager{
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+}
+.projectH{
+ 
+  font-size: 5em;
+  color:rgba(150, 131, 131, 0.925);
+  text-shadow: -5px 5px 2px rgba(184, 135, 11, 0.349);
+  text-size-adjust: 100%;
+  -webkit-font-smoothing:antialiased;
+  text-align: center;
+}
+.projectH h1 span:hover{
+  color: whitesmoke;
+}
+.projects{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+
+.project-card {
+  width: 30%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  background-color: #e9a5a549;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.project-image {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px 0 0 4px;
+}
+
+.project-details {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-title {
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.project-description {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.project-link {
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  border: 1px solid #007bff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.project-link:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.experience{
+  display: flex;
+ padding-top: -10px;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#ExDiscri{
+  width: 50%;
+  height: 100%;
+  color: whitesmoke;
+  font-size: 30px;
+  text-align: center;
+}
+#ExDiscri h1{
+  
+  font-size: 2.5em;
+  color:rgba(150, 131, 131, 0.925);
+  text-shadow: -5px 5px 2px rgba(184, 135, 11, 0.349);
+  text-size-adjust: 100%;
+  -webkit-font-smoothing:antialiased;
+  text-align: center;
+}
+.profileEx{
+  width: 30%;
+  height: 100vh;
+  background-image: url(/laxmi3.jpeg);
+  background-size: cover;
+  filter: grayscale(100%);
+  border-radius: 50%;
+}
+.frame{
+  width: 99%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.content{
+  border: 1px solid black;
+  width: 400px;
+  height: 500px;
+margin-left: 35%;
+
+  border-radius: 20px;
+  color: rgb(206, 185, 224);
+  background: url(/background_hero.png);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.75);
+  background-size:cover;
+  
+  background-position: center;
+  overflow: hidden;
+
+   -webkit-box-pack: center;
+   -webkit-box-align: center;
+
+}
+form{
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  text-transform: uppercase;
+  backdrop-filter: brightness(10%);
+  flex-direction: column;
+  display: flex;
+  gap: 5px;
+}
+#animated-heading{
+  font-weight: normal;
+    font-size: 24px;
+    text-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+    margin-bottom: 60px;
+}
+input{
+  background: rgba(255,255,255,0.3);
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+  padding: 0px 20px;
+  border: none;
+  margin-bottom: 20px;
+  color: white;
+}
+button{
+  background: rgb(45,126,231);
+  height: 40px;
+  line-height: 40px;
+  border-radius: 40px;
+  border: none;
+  margin: 10px 0px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+textarea{
+  background-color: rgba(255, 228, 196, 0.452);
+}
+footer{
+  background-image: url(/istockphoto-857744962-640x640.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+footer ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+footer ul li{
+  display: inline;
+  margin-right: 100px;
+  color: bisque;
 }
